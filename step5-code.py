@@ -9,7 +9,7 @@ GP2 = piperPin(board.GP2, "GP2")
 GP3 = piperPin(board.GP3, "GP3")
 GP4 = piperPin(board.GP4, "GP4")
 ## ---- Code ---- ##
-for count in range(5):
+for count in range(10):
   GP0.setPin(1)
   GP1.setPin(1)
   GP2.setPin(1)
