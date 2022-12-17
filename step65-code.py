@@ -28,6 +28,12 @@ while True:
     GP3.setPin(1)
     GP4.setPin(0)
     time.sleep(0.5)
+  
+  GP0.setPin(0)
+  GP1.setPin(0)
+  GP2.setPin(0)
+  GP3.setPin(0)
+  GP4.setPin(0)
 
 
 
