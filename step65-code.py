@@ -15,7 +15,7 @@ while True:
   while GP15.checkPin(Pull.UP):
     pass
 
-  for count in range(5):
+  for count in range(10):
     GP0.setPin(1)
     GP1.setPin(0)
     GP2.setPin(1)
