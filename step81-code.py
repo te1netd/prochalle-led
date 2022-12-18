@@ -18,7 +18,7 @@ while True:
   while GP15.checkPin(Pull.UP):
     pass
 
-  for count in range(5):
+  for count in range(10):
     if count % 3 == 1:
       R = 0
       G = 1
