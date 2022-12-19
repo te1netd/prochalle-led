@@ -61,7 +61,7 @@ i = 65535
 
 ## ---- Code ---- ##
 
-GP5.setPin(1)  ## tree top on
+GP5.setPin(0)  ## tree top on
 
 while rad < 3.14 * 2 * 28 :
   rad = rad + 0.002    
@@ -119,10 +119,11 @@ GP1.setPin(0)  ## LED off
 GP2.setPin(0)  ## LED off
 GP3.setPin(0)  ## LED off
 GP4.setPin(0)  ## LED off
-GP5.setPin(0)  ## tree top off
+GP5.setPin(1)  ## tree top off
 R.duty_cycle = 65535  ## R off
 G.duty_cycle = 65535  ## G off
 B.duty_cycle = 65535  ## B off 
+
 
 
 
